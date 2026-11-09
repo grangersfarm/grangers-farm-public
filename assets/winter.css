@@ -17,3 +17,7 @@
 .cash-banner p{margin:10px 0 0;font-size:clamp(16px,1.7vw,22px);line-height:1.5}
 @media(max-width:950px){.cash-banner{margin:0 30px 24px}}
 @media(max-width:700px){.cash-banner{margin:0 25px 24px;padding:25px 16px}.cash-banner strong{font-size:38px}.cash-banner p{font-size:16px}}
+
+/* Preserve the full original red-barn landscape in the Christmas feature. */
+#trees .christmas-barn{min-height:0;aspect-ratio:1077/720;background:transparent}
+#trees .christmas-barn img{display:block;width:100%;height:auto;aspect-ratio:1077/720}
