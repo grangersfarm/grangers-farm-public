@@ -10,3 +10,10 @@
 .winter-address{text-align:center;max-width:1440px;margin:auto;padding:22px 20px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;line-height:1.8}.winter-address span{margin:0 12px}
 @media(max-width:950px) and (min-width:701px){.winter-copy{padding:32px 18px}.winter-copy h1{font-size:36px}.winter-copy p{font-size:19px}.winter-star{margin-bottom:18px}.winter-photo{aspect-ratio:auto;min-height:430px}}
 @media(max-width:700px){.winter-hero{grid-template-columns:1fr;margin-top:10px}.winter-copy{padding:36px 22px 42px}.winter-star{font-size:30px;margin-bottom:18px}.winter-copy h1{font-size:46px;letter-spacing:-1.4px;margin-bottom:20px}.winter-copy p{font-size:22px;margin-bottom:26px}.winter-photo{aspect-ratio:4/3}.winter-photo img{object-fit:contain}.winter-address{font-size:10px;letter-spacing:.08em;padding:20px 18px}.winter-address span{margin:0 5px}}
+
+/* Prominent payment notice above Christmas visitor information. */
+.cash-banner{max-width:1150px;margin:0 auto 28px;background:#35463b;color:#f7f1e3;text-align:center;padding:26px 24px}
+.cash-banner strong{display:block;font:700 clamp(36px,4.5vw,64px)/1.1 var(--serif);letter-spacing:.045em}
+.cash-banner p{margin:10px 0 0;font-size:clamp(16px,1.7vw,22px);line-height:1.5}
+@media(max-width:950px){.cash-banner{margin:0 30px 24px}}
+@media(max-width:700px){.cash-banner{margin:0 25px 24px;padding:25px 16px}.cash-banner strong{font-size:38px}.cash-banner p{font-size:16px}}
