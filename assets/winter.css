@@ -27,3 +27,7 @@
 .autumn-field{display:block;width:100%;height:auto;aspect-ratio:1/1.15;object-fit:cover;object-position:center}
 .autumn-inset{position:absolute;right:0;bottom:0;width:47%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center 65%;border:8px solid var(--cream);box-shadow:0 4px 14px #343a3114}
 @media(max-width:700px){#pumpkins .autumn-collage{order:0;padding-bottom:16%}.autumn-inset{width:47%;border-width:6px}}
+
+/* Selected Option 3: single original pumpkin-patch photograph. */
+#pumpkins .autumn-single{aspect-ratio:3/4;min-height:0;background:transparent}
+#pumpkins .autumn-single img{display:block;width:100%;height:auto;aspect-ratio:3/4}
