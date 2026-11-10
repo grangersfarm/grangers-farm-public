@@ -43,3 +43,8 @@
 /* Selected snowy Christmas visit image. */
 #trees .christmas-visit{min-height:0;aspect-ratio:1168/1347;background:transparent}
 #trees .christmas-visit img{display:block;width:100%;height:auto;aspect-ratio:1168/1347}
+
+/* Match the header's regular serif lettering, preserving title case. */
+.winter-copy h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;text-transform:none;letter-spacing:.045em;font-size:clamp(30px,3.5vw,52px);line-height:1.2;overflow-wrap:normal}
+@media(max-width:950px) and (min-width:701px){.winter-copy h1{font-size:28px}}
+@media(max-width:700px){.winter-copy h1{font-size:clamp(30px,8vw,42px);letter-spacing:.035em}}
