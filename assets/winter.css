@@ -39,3 +39,7 @@
 /* About the Farm: preserve actual landscape, crop excess sky in presentation. */
 .family-band .about-landscape{aspect-ratio:1.8;min-height:0;background:transparent}
 .family-band .about-landscape img{display:block;width:100%;height:100%;object-fit:cover;object-position:center bottom}
+
+/* Selected snowy Christmas visit image. */
+#trees .christmas-visit{min-height:0;aspect-ratio:1168/1347;background:transparent}
+#trees .christmas-visit img{display:block;width:100%;height:auto;aspect-ratio:1168/1347}
