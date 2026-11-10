@@ -31,3 +31,7 @@
 /* Selected Option 3: single original pumpkin-patch photograph. */
 #pumpkins .autumn-single{aspect-ratio:3/4;min-height:0;background:transparent}
 #pumpkins .autumn-single img{display:block;width:100%;height:auto;aspect-ratio:3/4}
+
+/* Original goat portrait: show full photograph without distortion. */
+#goats .goat-portrait{aspect-ratio:3/4;min-height:0;background:transparent}
+#goats .goat-portrait img{display:block;width:100%;height:auto;aspect-ratio:3/4}
