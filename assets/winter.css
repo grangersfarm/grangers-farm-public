@@ -21,3 +21,9 @@
 /* Preserve the full original red-barn landscape in the Christmas feature. */
 #trees .christmas-barn{min-height:0;aspect-ratio:1077/720;background:transparent}
 #trees .christmas-barn img{display:block;width:100%;height:auto;aspect-ratio:1077/720}
+
+/* Option 5: field photograph with a framed autumn display inset. */
+#pumpkins .autumn-collage{position:relative;order:2;min-width:0;padding:0 3% 12% 0}
+.autumn-field{display:block;width:100%;height:auto;aspect-ratio:1/1.15;object-fit:cover;object-position:center}
+.autumn-inset{position:absolute;right:0;bottom:0;width:47%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center 65%;border:8px solid var(--cream);box-shadow:0 4px 14px #343a3114}
+@media(max-width:700px){#pumpkins .autumn-collage{order:0;padding-bottom:16%}.autumn-inset{width:47%;border-width:6px}}
