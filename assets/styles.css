@@ -15,3 +15,6 @@
 
 /* Emphasize the Christmas season label. */
 .christmas-intro .eyebrow{font-size:clamp(24px,3vw,34px);line-height:1.35;letter-spacing:.14em}@media(max-width:700px){.christmas-intro .eyebrow{font-size:24px}}
+
+/* Softer seasonal heading above the Christmas introduction. */
+.christmas-intro .eyebrow{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;text-transform:none;letter-spacing:.01em;color:#66745e;font-size:clamp(28px,3vw,36px);line-height:1.25}@media(max-width:700px){.christmas-intro .eyebrow{font-size:28px}}
