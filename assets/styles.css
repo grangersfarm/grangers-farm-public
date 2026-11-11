@@ -23,4 +23,4 @@
 .hours-box[aria-label="Payment information"]{background:#3f5042;border-color:#3f5042;color:#f8f5ed}.hours-box[aria-label="Payment information"] p,.hours-box[aria-label="Payment information"] .eyebrow{color:#f8f5ed}
 
 /* Footer lettering coordinated with the header wordmark. */
-footer .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:30px;line-height:1.25;letter-spacing:.20em;text-transform:uppercase;white-space:nowrap;max-width:100%}@media(max-width:700px){footer .brand{font-size:clamp(21px,5.6vw,30px);letter-spacing:.13em}}
+footer .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:24px;line-height:1.25;letter-spacing:.20em;text-transform:uppercase;white-space:nowrap;max-width:100%}@media(max-width:700px){footer .brand{font-size:clamp(19px,5vw,24px);letter-spacing:.13em}}
