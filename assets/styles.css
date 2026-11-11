@@ -7,8 +7,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 /* Header wordmark: uppercase serif with generous spacing. */
-.masthead .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(25px,3.1vw,40px);line-height:1.25;letter-spacing:.20em;text-transform:uppercase;white-space:nowrap;max-width:100%}
-@media(max-width:700px){.masthead .brand{font-size:clamp(21px,5.8vw,32px);letter-spacing:.13em}}
+.masthead .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(36px,4.5vw,58px);line-height:1.25;letter-spacing:.20em;text-transform:uppercase;white-space:nowrap;max-width:100%}
+@media(max-width:700px){.masthead .brand{font-size:clamp(24px,6.5vw,42px);letter-spacing:.11em}}
 
 /* Compact introduction on the Christmas Trees page. */
 .christmas-intro{max-width:1000px;padding:28px 25px 24px}.christmas-intro .eyebrow{margin:0 0 14px}.christmas-intro h1{font-size:clamp(40px,5vw,64px);line-height:1.08;letter-spacing:-1.7px;margin:0 auto 16px}.christmas-intro p:not(.eyebrow){max-width:680px;margin:0 auto;font-size:16px;line-height:1.65}.christmas-intro+.article{margin-top:32px}@media(max-width:700px){.christmas-intro{padding:24px 25px 18px}.christmas-intro h1{font-size:42px;letter-spacing:-1.1px}.christmas-intro p:not(.eyebrow){font-size:15px}.christmas-intro+.article{margin-top:24px}}
