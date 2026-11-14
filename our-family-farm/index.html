@@ -7,8 +7,9 @@
 .family-story-legacy-portraits{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
 .family-story-legacy-portraits a{display:block}
 :is(.family-story-charlize-photos,.family-story-tree-work-photos){grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
-.family-story-tree-work-photos img{display:block;width:100%;height:auto;aspect-ratio:3 / 2;object-fit:cover}
-.family-story-charlize-photos img{aspect-ratio:1;object-fit:cover}
+:is(.family-story-charlize-photos,.family-story-tree-work-photos) img{aspect-ratio:1;object-fit:cover}
+.family-story-tree-work-photos img[src="/assets/farm-story-christmas-tree-wagon.webp"]{object-position:left center}
+.family-story-tree-work-photos img[src="/assets/farm-story-planting-young-trees.webp"]{object-position:right center}
 .family-story-charlize-photos img[src="/assets/charlize-family-photo.webp"]{object-position:57% center}
 .family-story-andrea-photos{grid-template-columns:repeat(3,minmax(0,1fr))}
 .family-story-andrea-photos img{aspect-ratio:1;object-fit:cover}
