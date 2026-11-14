@@ -48,3 +48,9 @@ footer .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-s
 .season-note .button-compact{justify-self:start}
 .button.button-compact,.visit-band .button.button-compact,.button.call-farm,.mobile-contact a[href^="tel:"]{background:#dfe8da;border-color:#adbea8;color:var(--green)}
 .button.button-compact:hover,.visit-band .button.button-compact:hover,.button.call-farm:hover,.mobile-contact a[href^="tel:"]:hover{background:#d1dfcb;color:var(--green)}
+footer .brand,footer .brand small{text-align:left}
+.potted-tree-card{display:grid;grid-template-columns:min(27%,150px) minmax(0,1fr);gap:clamp(12px,2.5vw,24px);align-items:start}
+.potted-tree-card figure{margin:0}
+.potted-tree-card img{display:block;width:100%;height:auto}
+.potted-tree-card h3{margin:0 0 10px}
+@media(max-width:440px){.potted-tree-card{padding-inline:14px}.potted-tree-card h3{font-size:23px}}
