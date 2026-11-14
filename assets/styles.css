@@ -48,3 +48,5 @@ footer .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-s
 .season-note .button-compact{justify-self:start}
 .visit-band .button.button-compact{background:var(--green);color:var(--paper);border-color:var(--paper)}
 .visit-band .button.button-compact:hover{background:#28372e;color:#fff}
+.button.button-sage{background:#c6cbbb;border-color:#87947e;color:var(--ink)}
+.button.button-sage:hover{background:#b2b59b;color:var(--ink)}
