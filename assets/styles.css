@@ -46,5 +46,5 @@ footer .brand{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-s
 }
 .button.button-compact{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 13px;font-size:10px}
 .season-note .button-compact{justify-self:start}
-.button.button-compact,.visit-band .button.button-compact{background:#dfe8da;border-color:#adbea8;color:var(--green)}
-.button.button-compact:hover,.visit-band .button.button-compact:hover{background:#d1dfcb;color:var(--green)}
+.button.button-compact,.visit-band .button.button-compact,.button.call-farm,.mobile-contact a[href^="tel:"]{background:#dfe8da;border-color:#adbea8;color:var(--green)}
+.button.button-compact:hover,.visit-band .button.button-compact:hover,.button.call-farm:hover,.mobile-contact a[href^="tel:"]:hover{background:#d1dfcb;color:var(--green)}
